@@ -1,0 +1,19 @@
+.cover__content {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    max-width: 560px;
+    flex-direction: column;
+    gap: 32px;
+    color: #fff;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (max-width: 420px ) {
+    .cover__content {
+       gap: 16px;
+       max-width: 288px;
+    }
+}

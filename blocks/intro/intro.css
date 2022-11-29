@@ -1,0 +1,25 @@
+.intro {
+    color: #fff;
+    max-width: 984px;
+    margin: 92px auto;
+}
+
+@media screen and (max-width: 1024px ) {
+    .intro {
+        max-width: calc(100% - 96px);
+        margin: 88px auto;
+    }
+}
+
+@media screen and (max-width: 768px ) {
+    .intro {
+        max-width: calc(100% - 48px);
+    }
+}
+
+@media screen and (max-width: 320px ) {
+    .intro {
+        margin: 64px auto;
+        max-width: calc(100%-32px);
+    }
+}
