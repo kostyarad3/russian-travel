@@ -5,7 +5,7 @@
 }
 
 
-@media screen and (max-width: 945px ) {
+@media screen and (max-width: 1000px ) {
     .place__paragraphs {
         gap: 25px;
     }

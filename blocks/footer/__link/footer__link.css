@@ -1,4 +1,5 @@
 .footer__link {
+    cursor: pointer;
     color: #fff;
     text-decoration: none;
     transition: .8s;
